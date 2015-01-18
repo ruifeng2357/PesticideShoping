@@ -1,0 +1,1626 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_statisticnongyao"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_background"
+    tools:context=".BaseShopActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/common_header" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="35"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_statistic_backbtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_goback" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/autoSizeTextView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/common_nongyao_statistic_title"
+                        android:textColor="@color/common_header_text"
+                        android:textSize="@dimen/common_header_title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_statistic_homebtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/ImageView02"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_home" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="450"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="250"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15" >
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="200" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_statisticnongyao_main"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="200"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout05"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="30" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView08"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_startdate"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="130"
+                                android:background="@drawable/common_white_roundrect"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:id="@+id/ll_statisticnongyao_startdate"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="25" >
+
+                                            <ImageView
+                                                android:id="@+id/ImageView05"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="center_vertical|center_horizontal"
+                                                android:src="@drawable/common_calender" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="25" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="150" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_statisticnongyao_startdate"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:gravity="left|center_vertical"
+                                                android:text="2014-08-20"
+                                                android:textColor="@color/common_table_header_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout08"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="30" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView07"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_enddate"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="130"
+                                android:background="@drawable/common_white_roundrect"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:id="@+id/ll_statisticnongyao_enddate"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="25" >
+
+                                            <ImageView
+                                                android:id="@+id/ImageView06"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="center_vertical|center_horizontal"
+                                                android:src="@drawable/common_calender" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="25" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="150" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_statisticnongyao_enddate"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:gravity="left|center_vertical"
+                                                android:text="2014-08-20"
+                                                android:textColor="@color/common_table_header_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="40"
+                                android:orientation="horizontal" >
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout01"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="40" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView03"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_region_title"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout02"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="90"
+                                    android:background="@drawable/common_white_roundrect"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_statisticnongyao_region"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="170"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="horizontal" >
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="180" >
+
+                                                <com.damy.Utils.AutoSizeTextView
+                                                    android:id="@+id/txt_statisticnongyao_region"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:gravity="left|center_vertical"
+                                                    android:textColor="@color/common_table_header_text"
+                                                    android:textSize="@dimen/common_table_view_size" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="5" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="15" >
+
+                                                <ImageView
+                                                    android:id="@+id/ImageView03"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:src="@drawable/common_option" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout02"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView04"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/nongyao_type_title"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout01"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="90"
+                                    android:background="@drawable/common_white_roundrect"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_statisticnongyao_nongtype"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="170"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="horizontal" >
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="180" >
+
+                                                <com.damy.Utils.AutoSizeTextView
+                                                    android:id="@+id/txt_statisticnongyao_nongtype"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:gravity="left|center_vertical"
+                                                    android:textColor="@color/common_table_header_text"
+                                                    android:textSize="@dimen/common_table_view_size" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="5" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="15" >
+
+                                                <ImageView
+                                                    android:id="@+id/ImageView04"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:src="@drawable/common_option" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout03"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="30" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView12"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_nongyaousingname"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout04"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="120"
+                                android:background="@drawable/common_white_roundrect"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="200" >
+
+                                            <com.damy.Utils.AutoSizeEditText
+                                                android:id="@+id/edit_statisticnongyao_catalogsearch"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:background="@color/color_white"
+                                                android:gravity="left|center_vertical"
+                                                android:inputType="textNoSuggestions"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout04"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="30" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView09"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout05"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="120"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout06"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="60"
+                                    android:background="@drawable/common_white_roundrect"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_statisticnongyao_catalog"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="horizontal" >
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="180" >
+
+                                                <com.damy.Utils.AutoSizeTextView
+                                                    android:id="@+id/txt_statisticnongyao_catalog"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:gravity="left|center_vertical"
+                                                    android:textColor="@color/common_table_header_text"
+                                                    android:textSize="@dimen/common_table_view_size" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="5" >
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="15" >
+
+                                                <ImageView
+                                                    android:id="@+id/ImageView08"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent"
+                                                    android:src="@drawable/common_option" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="fill_parent"
+                                                android:layout_weight="10" >
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="40"
+                                    android:orientation="horizontal" >
+
+                                    <FrameLayout
+                                        android:id="@+id/fl_statisticnongyao_searchbtn"
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="60" >
+
+                                        <ImageView
+                                            android:id="@+id/ImageView07"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:src="@drawable/common_button1" />
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/AutoSizeTextView10"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:gravity="center_vertical|center_horizontal"
+                                            android:text="@string/common_search"
+                                            android:textColor="@color/color_white"
+                                            android:textSize="@dimen/common_button_size" />
+                                    </FrameLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="120"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/common_table_height"
+                                android:background="@drawable/table_header_cell" >
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/autoSizeTextView4"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/common_nongyaoname"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView14"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/nongyao_make_place_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView15"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/common_cost_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView16"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/store_all_number_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView17"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/sale_all_number_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView18"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/common_operation"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical" >
+
+                                <com.damy.Utils.PullToRefreshListView
+                                    android:id="@+id/anStatisticNongyaoContentView"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent" >
+                                </com.damy.Utils.PullToRefreshListView>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_statisticnongyao_detail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="200"
+                        android:background="@color/common_background"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="25"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout06"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="40" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView11"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/nongyao_detail_info_text"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout03"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="60"
+                                android:background="@drawable/common_white_roundrect"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="200" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_statisticnongyao_detailinfo"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:gravity="left|center_vertical"
+                                                android:textColor="@color/common_table_header_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="fill_parent"
+                                            android:layout_weight="10" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="15"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="200"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/common_table_height"
+                                android:background="@drawable/table_header_cell" >
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView06"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/common_largenumber"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView01"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/nongyao_guarantee_date_text"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView05"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/store_all_number_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView21"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/sale_all_number_title"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView20"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/sum_number_text"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="10" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView19"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10"
+                                        android:gravity="center_vertical|center_horizontal"
+                                        android:text="@string/shop_text"
+                                        android:textColor="@color/common_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+
+                                    <LinearLayout
+                                        android:layout_width="1px"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@color/common_line" >
+                                    </LinearLayout>
+                                </FrameLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical" >
+
+                                <ListView
+                                    android:id="@+id/anStatisticNongyaoDetailContentView"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent" >
+                                </ListView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="20"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="25"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="80" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/fl_statisticnongyao_detail_close"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="60" >
+
+                                <ImageView
+                                    android:id="@+id/ImageView09"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:src="@drawable/common_button_gray" />
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView22"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="@string/common_close"
+                                    android:textColor="@color/color_white"
+                                    android:textSize="@dimen/common_button_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="80" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50" >
+
+            <FrameLayout
+                android:id="@+id/fl_statistic_shopbtn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:background="@color/common_footbutton" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="top"
+                    android:background="@color/common_footoutline"
+                    android:gravity="top"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/common_footoutline"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <com.damy.Utils.AutoSizeTextView
+                    android:id="@+id/autoSizeTextView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/common_shop_statistic_title"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/common_footer_title" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_statistic_nongyaobtn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:background="@color/common_footbutton_sel" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="top"
+                    android:background="@color/common_footoutline"
+                    android:gravity="top"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/common_footoutline"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <com.damy.Utils.AutoSizeTextView
+                    android:id="@+id/txt_item_salecatalog_standardname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/common_nongyao_statistic_title"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/common_footer_title" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_statistic_policybtn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:background="@color/common_footbutton" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="top"
+                    android:background="@color/common_footoutline"
+                    android:gravity="top"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/common_footoutline"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/common_footoutline"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <com.damy.Utils.AutoSizeTextView
+                    android:id="@+id/AutoSizeTextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/common_statistic_title"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/common_footer_title" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_statisticnongyao_masklayer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.2"
+        android:background="@color/color_black"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

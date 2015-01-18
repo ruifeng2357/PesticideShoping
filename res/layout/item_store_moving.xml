@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_item_moneyreport_row"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_table_height"
+        android:background="@color/color_white" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10" >
+
+            <LinearLayout
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/txt_item_storemoving_catalognum"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="10"
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="2"
+                android:textColor="@color/common_table_view_text"
+                android:textSize="@dimen/common_table_view_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:background="@color/common_line" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/txt_item_storemoving_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="10"
+                android:ellipsize="end"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="2"
+                android:textColor="@color/common_table_view_text"
+                android:textSize="@dimen/common_table_view_size" />
+
+            <LinearLayout
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10" >
+
+            <com.damy.Utils.AutoSizeEditText
+                android:id="@+id/edit_item_storemoving_amount"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/color_white"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="number"
+                android:maxLines="1"
+                android:text="0"
+                android:textColor="@color/common_table_view_text"
+                android:textSize="@dimen/common_table_view_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="@color/common_line" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/txt_item_storemoving_operation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="10"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/common_del"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/common_table_view_size" />
+
+            <LinearLayout
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:background="@color/common_line" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line" >
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

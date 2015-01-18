@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_item_dialog_select_row"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_table_height"
+        android:background="@color/color_white" >
+
+        <com.damy.Utils.AutoSizeTextView
+            android:id="@+id/txt_item_dialog_select_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:ellipsize="end"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/dialog_text"
+            android:textSize="@dimen/common_table_view_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

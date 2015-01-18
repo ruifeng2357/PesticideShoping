@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_item_dialog_checkselect_row"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_table_height"
+        android:background="@color/color_white" >
+
+        <CheckBox
+            android:id="@+id/chk_item_dialog_checkselect_check"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:text="CheckBox"
+            android:textColor="@color/dialog_text"
+            android:textSize="@dimen/common_table_view_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

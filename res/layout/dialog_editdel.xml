@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_popup_editdel"
+        android:layout_width="@dimen/common_popup_dialog_width"
+        android:layout_height="@dimen/common_popup_dialog_height"
+        android:background="@drawable/back_dialog_editdel"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/fl_popup_editdel_editbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/autoSizeTextView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/common_edit"
+                android:textColor="@color/common_header_text"
+                android:textSize="@dimen/common_popup_dialog_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_popup_editdel_delbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/txt_item_salecatalog_standardname"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/common_del"
+                android:textColor="@color/common_header_text"
+                android:textSize="@dimen/common_popup_dialog_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="top"
+                android:background="@color/common_line"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_popup_editdel_cancelbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/AutoSizeTextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/common_cancel"
+                android:textColor="@color/common_header_text"
+                android:textSize="@dimen/common_popup_dialog_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="top"
+                android:background="@color/common_line"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

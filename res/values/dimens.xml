@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    
+    <dimen name="common_table_height">65px</dimen>
+    
+    
+    <dimen name="common_request_table_height">55px</dimen>
+    <dimen name="common_request_table_height_1">120px</dimen>
+    <dimen name="common_request_table_height_2">180px</dimen>
+    <dimen name="common_request_space_height">25px</dimen>
+    <dimen name="common_request_button_height">65px</dimen>
+    <dimen name="common_request_header_height">70px</dimen>
+    
+    
+    <dimen name="common_popup_dialog_width">350px</dimen>
+    <dimen name="common_popup_dialog_height">210px</dimen>
+    
+    <dimen name="common_popup_checkdialog_width">350px</dimen>
+    <dimen name="common_popup_checkdialog_height">330px</dimen>
+    
+    <dimen name="common_delconfirm_dialog_width">430px</dimen>
+    <dimen name="common_delconfirm_dialog_height">300px</dimen>
+    
+    <dimen name="common_datepicker_dialog_width">420px</dimen>
+    <dimen name="common_datepicker_dialog_height">390px</dimen>
+    
+    <dimen name="header_footer_left_right_padding">24px</dimen>
+    <dimen name="header_footer_top_bottom_padding">12px</dimen>
+    
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    
+    
+    <!-- font size -->
+    <dimen name="common_header_title">21px</dimen>
+    <dimen name="common_footer_title">17px</dimen>
+    <dimen name="common_button_size">17px</dimen>
+    
+    <dimen name="common_table_header_size">15px</dimen>
+    <dimen name="common_table_view_size">14px</dimen>
+    
+    <dimen name="common_popup_dialog_size">17px</dimen>
+    
+    <dimen name="login_text_size">15px</dimen>
+    <dimen name="login_button_size">17px</dimen>
+    
+    <dimen name="main_welcome_size">30px</dimen>
+    <dimen name="main_subtitle_size">16px</dimen>
+    
+    <dimen name="request_small_size">10px</dimen>
+    
+    
+	<dimen name="standard_padding">8dip</dimen>
+	<dimen name="half_padding">4dip</dimen>
+	
+	
+    <!-- table width -->
+    
+    <dimen name="table_salesearch_saletype">80px</dimen>
+    <dimen name="table_salesearch_ticketnum">220px</dimen>
+    <dimen name="table_salesearch_customer">100px</dimen>
+    <dimen name="table_salesearch_saledate">100px</dimen>
+    <dimen name="table_salesearch_mustgetmoney">100px</dimen>
+    <dimen name="table_salesearch_realgetmoney">100px</dimen>
+    
+    <dimen name="table_salesearch_detail_nongyaoname">100px</dimen>
+    <dimen name="table_salesearch_detail_standard">100px</dimen>
+    <dimen name="table_salesearch_detail_oneprice">100px</dimen>
+    <dimen name="table_salesearch_detail_amount">100px</dimen>
+    <dimen name="table_salesearch_detail_totalprice">100px</dimen>
+    
+    <dimen name="table_storesearch_catanum">100px</dimen>
+    <dimen name="table_storesearch_storename">100px</dimen>
+    <dimen name="table_storesearch_cataname">100px</dimen>
+    <dimen name="table_storesearch_standard">100px</dimen>
+    <dimen name="table_storesearch_largenumber">100px</dimen>
+    <dimen name="table_storesearch_quantity">100px</dimen>
+    
+    <dimen name="table_moneyreport_date">130px</dimen>
+    <dimen name="table_moneyreport_income">100px</dimen>
+    <dimen name="table_moneyreport_originprice">100px</dimen>
+    <dimen name="table_moneyreport_restmoney">100px</dimen>
+    <dimen name="table_moneyreport_earn">100px</dimen>
+    <dimen name="table_moneyreport_detail">100px</dimen>
+    
+    <dimen name="table_moneyreport_detail_catanum">100px</dimen>
+    <dimen name="table_moneyreport_detail_description">100px</dimen>
+    <dimen name="table_moneyreport_detail_money">100px</dimen>
+    <dimen name="table_moneyreport_detail_operator">100px</dimen>
+    <dimen name="table_moneyreport_detail_remark">100px</dimen>
+    
+    <dimen name="table_moneybank_detail_ticketnum">220px</dimen>
+    <dimen name="table_moneybank_detail_type">100px</dimen>
+    <dimen name="table_moneybank_detail_inout">100px</dimen>
+    <dimen name="table_moneybank_detail_money">100px</dimen>
+    <dimen name="table_moneybank_detail_reason">100px</dimen>
+    
+    <dimen name="table_moneypayment_detail_date">100px</dimen>
+    <dimen name="table_moneypayment_detail_ticketnum">220px</dimen>
+    <dimen name="table_moneypayment_detail_content">100px</dimen>
+    <dimen name="table_moneypayment_detail_money">130px</dimen>
+    <dimen name="table_moneypayment_detail_remark">100px</dimen>
+    
+    <!-- shop height -->
+    <dimen name="shop_horizontal_separate">30px</dimen>
+    <dimen name="shop_horizontal_table_height">50px</dimen>
+    <dimen name="shop_image_height">300px</dimen>
+    <dimen name="statistic_text_size">16px</dimen>
+    
+
+</resources>

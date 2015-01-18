@@ -1,0 +1,1447 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_salereject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaleRejectActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/common_header" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="35"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_salereject_backbtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_goback" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/autoSizeTextView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/sale_reject_title"
+                        android:textColor="@color/common_header_text"
+                        android:textSize="@dimen/common_header_title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_salereject_homebtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/ImageView02"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_home" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="500"
+            android:background="@color/common_background"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="70"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="200"
+                    android:background="@drawable/common_white_roundrect" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout08"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView08"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_shop"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout08"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="200"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_salereject_shopname"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:background="@color/color_white"
+                                                android:ellipsize="end"
+                                                android:ems="10"
+                                                android:gravity="left|center_vertical"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="1px"
+                                android:layout_gravity="bottom"
+                                android:background="@color/common_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout01"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView1"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_ticketnum"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout01"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="200"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_salereject_ticketnum"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:background="@color/color_white"
+                                                android:ellipsize="end"
+                                                android:ems="10"
+                                                android:gravity="left|center_vertical"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="1px"
+                                android:layout_gravity="bottom"
+                                android:background="@color/common_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout05"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView09"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_storeselect"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout05"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/ll_salereject_storesel"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="170"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_salereject_storename"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:ellipsize="end"
+                                                android:gravity="center_vertical|center_horizontal"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="15" >
+
+                                        <ImageView
+                                            android:id="@+id/ImageView08"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:src="@drawable/common_option" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="1px"
+                                android:layout_gravity="bottom"
+                                android:background="@color/common_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout04"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView03"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_customername"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout04"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="200"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeEditText
+                                                android:id="@+id/edit_salereject_customername"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:background="@color/color_white"
+                                                android:ems="10"
+                                                android:gravity="left|center_vertical"
+                                                android:inputType="textNoSuggestions"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="1px"
+                                android:layout_gravity="bottom"
+                                android:background="@color/common_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout02"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView02"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_customerphone"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout02"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="200"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeEditText
+                                                android:id="@+id/edit_salereject_customerphone"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:background="@color/color_white"
+                                                android:ems="10"
+                                                android:gravity="left|center_vertical"
+                                                android:inputType="number"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="1px"
+                                android:layout_gravity="bottom"
+                                android:background="@color/common_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/FrameLayout03"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="50" >
+
+                                    <com.damy.Utils.AutoSizeTextView
+                                        android:id="@+id/AutoSizeTextView11"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center_vertical"
+                                        android:text="@string/common_paytypeselect"
+                                        android:textColor="@color/common_table_header_text"
+                                        android:textSize="@dimen/common_table_header_size" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="5" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/FrameLayout03"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="50" >
+
+                                            <LinearLayout
+                                                android:layout_width="1px"
+                                                android:layout_height="fill_parent"
+                                                android:layout_gravity="right"
+                                                android:background="@color/common_line" >
+                                            </LinearLayout>
+                                        </FrameLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/ll_salereject_paytypesel"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="140" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="170"
+                                        android:orientation="vertical" >
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="100"
+                                            android:orientation="vertical" >
+
+                                            <com.damy.Utils.AutoSizeTextView
+                                                android:id="@+id/txt_salereject_paytype"
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="fill_parent"
+                                                android:ellipsize="end"
+                                                android:gravity="center_vertical|center_horizontal"
+                                                android:maxLines="1"
+                                                android:textColor="@color/common_table_view_text"
+                                                android:textSize="@dimen/common_table_view_size" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="15" >
+
+                                        <ImageView
+                                            android:id="@+id/ImageView03"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:src="@drawable/common_option" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="10" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="30" >
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_salecatalog_addbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="60" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/button_green" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/autoSizeTextView3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/common_add"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/common_button_size" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="30" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="200"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/common_table_height"
+                        android:background="@drawable/table_header_cell" >
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_catalogname"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_org_standard"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_pihao"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_oneprice"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_amount"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <com.damy.Utils.AutoSizeTextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="@string/common_totalprice"
+                                android:textColor="@color/common_header_text"
+                                android:textSize="@dimen/common_table_header_size" />
+
+                            <LinearLayout
+                                android:layout_width="1px"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@color/common_line" >
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <ListView
+                            android:id="@+id/anSaleRejectContentView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="15"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_salereject_savebtn"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="60" >
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/common_button1" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/autoSizeTextView4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/common_pay"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/common_button_size" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_salereject_cancelbtn"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="60" >
+
+                        <ImageView
+                            android:id="@+id/img_cata_level_yes"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/button_gray" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/txt_item_salecatalog_standardname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/common_cancel"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/common_button_size" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_salereject_masklayer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.2"
+        android:background="@color/color_black"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

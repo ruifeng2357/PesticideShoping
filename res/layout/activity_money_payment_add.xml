@@ -1,0 +1,1512 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_moneypayment_add"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_background"
+    tools:context=".BaseShopActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/common_header" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="35"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_moneypayment_add_backbtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_goback" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/autoSizeTextView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/money_payment_add_title"
+                        android:textColor="@color/common_header_text"
+                        android:textSize="@dimen/common_header_title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_moneypayment_add_homebtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/common_button" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="10" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="20" >
+
+                                <ImageView
+                                    android:id="@+id/ImageView02"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/common_home" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/common_line"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="500"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="200"
+                    android:background="@drawable/common_white_roundrect"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout05"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView10"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_customername"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout05"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="50" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_moneypayment_add_customerselect"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/txt_moneyotherpay_add_customername"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="15" >
+
+                                    <ImageView
+                                        android:id="@+id/ImageView08"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:src="@drawable/common_option" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/autoSizeTextView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_connectmethod"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout1"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="40" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="200"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+                                        
+                                        <requestFocus />
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/txt_moneypayment_add_connectmethod"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout02"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView03"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_realgivetake"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout02"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="50" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_moneypayment_add_typeselect"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/txt_moneypayment_add_type"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="15" >
+
+                                    <ImageView
+                                        android:id="@+id/ImageView03"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:src="@drawable/common_option" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout01"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView01"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_mustpaytaketype"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout01"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="50" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_moneypayment_add_paytypeselect"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="170"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/txt_moneypayment_add_paytype"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="15" >
+
+                                    <ImageView
+                                        android:id="@+id/ImageView04"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:src="@drawable/common_option" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout04"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView06"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_money"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout04"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="40" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="200"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeEditText
+                                            android:id="@+id/edit_moneypayment_add_money"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:background="@color/color_white"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:inputType="numberDecimal"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout06"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView09"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_rest"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout06"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="40" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="200"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeEditText
+                                            android:id="@+id/edit_moneypayment_add_restmoney"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:background="@color/color_white"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:inputType="numberDecimal"
+                                            android:maxLines="1"
+                                            android:text="0"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="20" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout07"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView11"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_remark"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout07"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="40" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="200"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeEditText
+                                            android:id="@+id/edit_moneypayment_add_remark"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:background="@color/color_white"
+                                            android:ellipsize="end"
+                                            android:gravity="left|center_vertical"
+                                            android:inputType="textNoSuggestions"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="@color/common_line"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="10" >
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/FrameLayout03"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="50" >
+
+                                <com.damy.Utils.AutoSizeTextView
+                                    android:id="@+id/AutoSizeTextView04"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left|center_vertical"
+                                    android:text="@string/common_operator"
+                                    android:textColor="@color/common_table_header_text"
+                                    android:textSize="@dimen/common_table_header_size" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="5" >
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <FrameLayout
+                                        android:id="@+id/FrameLayout03"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="40" >
+
+                                        <LinearLayout
+                                            android:layout_width="1px"
+                                            android:layout_height="fill_parent"
+                                            android:layout_gravity="right"
+                                            android:background="@color/common_line" >
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="140" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="200"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="100"
+                                        android:orientation="vertical" >
+
+                                        <com.damy.Utils.AutoSizeTextView
+                                            android:id="@+id/txt_moneypayment_add_operator"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:background="@color/color_white"
+                                            android:ellipsize="end"
+                                            android:ems="10"
+                                            android:gravity="left|center_vertical"
+                                            android:maxLines="1"
+                                            android:textColor="@color/common_table_view_text"
+                                            android:textSize="@dimen/common_table_view_size" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="10"
+                                        android:orientation="vertical" >
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="10" >
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_moneypayment_add_savebtn"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="60" >
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/button_green" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/autoSizeTextView4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/common_ok"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/common_button_size" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_moneypayment_add_closebtn"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="60" >
+
+                        <ImageView
+                            android:id="@+id/img_cata_level_yes"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/button_gray" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/AutoSizeTextView08"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/common_cancel"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/common_button_size" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="30" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_moneypayment_add_masklayer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.2"
+        android:background="@color/color_black"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

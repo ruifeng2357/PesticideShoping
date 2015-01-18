@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.damy.nongyao"
+    android:versionCode="6"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
+
+        <activity
+            android:name="com.damy.nongyao.FirstSplashActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BaseShopActivity"
+            android:label="@string/title_activity_base_data"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BaseUserActivity"
+            android:label="@string/title_activity_base_data"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BaseUserAddActivity"
+            android:label="@string/title_activity_base_data"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BaseStoreActivity"
+            android:label="@string/title_activity_base_data"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BaseStoreAddActivity"
+            android:label="@string/title_activity_base_data"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BuyCatalogActivity"
+            android:label="@string/title_activity_buy_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleMainActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleCatalogActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleCatalogAddActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleRejectActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleRejectAddActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SaleSearchActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.RequestCatalogActivity"
+            android:label="@string/title_activity_request_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StoreMovingActivity"
+            android:label="title_activity_store_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StoreSearchActivity"
+            android:label="@string/title_activity_store_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StoreUsingActivity"
+            android:label="@string/title_activity_store_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StoreUsingAddActivity"
+            android:label="@string/title_activity_store_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyReportActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyPaymentActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyPaymentAddActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyPaymentHistoryActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyOtherpayActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyOtherpayAddActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyBankActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.MoneyManreportActivity"
+            android:label="@string/title_activity_money_payment"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SalePayActivity"
+            android:label="@string/title_activity_sale_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.BuyCatalogAddActivity"
+            android:label="@string/title_activity_buy_catalog_add"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticShopActivity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticNongyaoActivity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticPolicyActivity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticPolicyDetail1Activity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticPolicyDetail2Activity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.StatisticPolicyDetail3Activity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.damy.nongyao.SelectPhotoActivity"
+            android:label="@string/title_activity_request_catalog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity android:name="com.google.zxing.client.android.PreferencesActivity"
+	        android:label="@string/app_name"
+	        android:screenOrientation="portrait" 
+	        android:stateNotNeeded="true"
+	        android:windowSoftInputMode="stateHidden|adjustPan" >
+	    </activity>
+	    <activity android:name="com.google.zxing.client.android.CaptureActivity"
+	        android:clearTaskOnLaunch="true"
+	        android:stateNotNeeded="true"
+	        android:screenOrientation="landscape"
+	        android:configChanges="orientation|keyboardHidden"
+	        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+	        android:windowSoftInputMode="stateAlwaysHidden">
+			<intent-filter>
+			    <action android:name="com.google.zxing.client.android.SCAN"/>
+			    <category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+      		<!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+      		<intent-filter>
+        		<action android:name="android.intent.action.VIEW"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+        		<category android:name="android.intent.category.BROWSABLE"/>
+        		<data android:scheme="http" android:host="zxing.appspot.com" android:path="/scan"/>
+      		</intent-filter>
+      		<!-- We also support a Google Product Search URL. -->
+      		<intent-filter>
+        		<action android:name="android.intent.action.VIEW"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+       			<category android:name="android.intent.category.BROWSABLE"/>
+        		<data android:scheme="http" android:host="www.google.com" android:path="/m/products/scan"/>
+      		</intent-filter>
+      		<!-- And the UK version. -->
+      		<intent-filter>
+      			<action android:name="android.intent.action.VIEW"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+        		<category android:name="android.intent.category.BROWSABLE"/>
+        		<data android:scheme="http" android:host="www.google.co.uk" android:path="/m/products/scan"/>
+      		</intent-filter>
+      		<!-- Support zxing://scan/?... like iPhone app -->
+      		<intent-filter>
+        		<action android:name="android.intent.action.VIEW"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+        		<category android:name="android.intent.category.BROWSABLE"/>
+       			<data android:scheme="zxing" android:host="scan" android:path="/"/>
+      		</intent-filter>
+    	</activity>
+    </application>
+
+</manifest>
